@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((2#$1))
+bc <<< "ibase=2; $1"
